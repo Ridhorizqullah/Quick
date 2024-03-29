@@ -1,4 +1,4 @@
-include < iostream>
+#include < iostream>
 using namespace std;
 //array of integers to hold values
 int arr[20];
@@ -8,13 +8,22 @@ int n;
 
 void input() {
 	while (true)
-		cout << "masukkan panjang elemnt arry; ";
+	{
+		cout << "masukkan panjang elemnt arry: ";
 		cin >> n;
 
 		if (n <= 20)
 			break;
 		else
-			cout < , "\nmaksium panjang array adalah 20" << endl;
+			cout << "\nmaksium panjang array adalah 20" << endl;
+
+	}
+
+	cout << "\n-----------------" << endl;
+	cout << "\nenter arry element" << endl;
+	cout << "\n-----------------" << endl;
+
+
 }
 
 	
