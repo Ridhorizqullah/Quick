@@ -102,6 +102,12 @@ int main()
 		input();
 		q_short(0, n - 1);
 		display()
-			cout << "n\ndo you want to continue? (y/n) ";
+		cout << "n\ndo you want to continue? (y/n) ";
+		cin >> ch;
+		if (ch == 'n' || ch == 'n')
+			break;
+
+		system("pause");
+		system("cls");
 	}
 }
